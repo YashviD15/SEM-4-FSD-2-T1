@@ -1,0 +1,16 @@
+ myobj = {
+
+    "name" : "John",
+
+    "age" : 30,
+
+    "cars" : [
+
+                { "name" : "Ford",  "models":[ "Fiesta", "Focus", "Mustang" ] },
+
+                { "name" : "BMW", "models" : [ "320", "X3", "X5" ] },
+
+                { "name" : "Fiat", "models" : [ "500", "Panda" ] }
+
+  ] }
+  console.log(myobj.name+" "+"has"+" "+myobj.cars[1].name+"-"+myobj.cars[1].models[1]+" at the age of "+myobj.age+" in web browser ")

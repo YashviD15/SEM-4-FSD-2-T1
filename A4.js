@@ -1,0 +1,5 @@
+var obj=JSON.parse('{"var1":"LJ","var2":"University"}')
+console.log(obj)
+console.log(obj.var1+" "+obj.var2)
+var obj=JSON.stringify({"var1":"LJ","var2":"University"})
+console.log(obj)

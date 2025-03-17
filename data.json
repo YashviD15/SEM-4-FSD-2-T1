@@ -1,0 +1,9 @@
+{
+    "name":"Yashvi" ,
+    "age":20 ,
+    "details":{"class":"B5","rollno":"157"},
+    "hobby":["Dance","Tennis","Cricket"], 
+    "active":true,
+    "id":null
+    
+}
