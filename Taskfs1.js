@@ -1,0 +1,7 @@
+fs=require("fs")
+fs.writeFileSync("source.txt","Name:Shah Yashvi B")
+fs.appendFileSync("source.txt","Roll No:157")
+data=fs.readFileSync("source.txt","utf-8")
+console.log(data)
+ans=fs.writeFileSync("destination.txt",data)
+console.log(ans)

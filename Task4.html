@@ -1,0 +1,14 @@
+<html>
+<script>
+     function call(){
+        obj={"name":"Yashvi","age":"20","dob":"2005-08-15"};
+        obj.dob=new Date(obj.dob)
+        document.getElementById("demo").innerHTML="Birthday of "+obj.name+" is "+obj.dob
+     }
+
+</script>
+<body>
+    <p id="demo"></p>
+    <button onclick="call()">Click me</button>
+</body>
+</html>

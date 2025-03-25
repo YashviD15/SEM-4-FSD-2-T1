@@ -1,0 +1,7 @@
+const data=require("./data.json")
+console.log(data)
+console.log(data.name)
+console.log(data.details.class)
+console.log(data.hobby[1])
+console.log(data.hobby[2])
+console.log(data.active)

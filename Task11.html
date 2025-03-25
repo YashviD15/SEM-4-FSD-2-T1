@@ -1,0 +1,16 @@
+<body>
+    <p id="demo"></p>
+    <script>
+        size=15
+        function fun(){
+            obj=document.getElementById("demo")
+            obj.innerHTML="Hello"
+            obj.style.color="Blue"
+            obj.style.fontSize=size+"px"
+            if(size<=50){
+                size++
+            }
+        }
+        setInterval(fun,50)
+    </script>
+</body>
